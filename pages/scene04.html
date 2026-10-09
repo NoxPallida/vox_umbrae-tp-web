@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Protocol - Sous-station</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url('../assets/im9.jpeg');">
+    <main class="game-container">
+        <header class="game-header">
+            <h1 class="game-title">04. Sous-station Électrique</h1>
+            <div class="hud-panel">
+                <span>Statut: Zone haute tension</span>
+                <span>Inventaire: <strong id="hud-inventory">Aucun</strong></span>
+            </div>
+        </header>
+        <section class="story-text">
+            <p>L'air grésille d'électricité statique. Le disjoncteur principal du bâtiment se trouve ici. Sur une boîte à outils abandonnée, un module de piratage manuel est posé.</p>
+        </section>
+        <nav class="choices-container">
+            <a href="scene07.html" class="btn-choice" onclick="addItem('Module Piratage')">
+                <img src="../assets/im10.png" alt="Icone Électricité" class="btn-icon">
+                Récupérer le module et couper le courant global
+            </a>
+            <a href="scene08.html" class="btn-choice">
+                Emprunter la conduite d'aération industrielle
+            </a>
+        </nav>
+    </main>
+    <script src="../js/game.js"></script>
+</body>
+</html>

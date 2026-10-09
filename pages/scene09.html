@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Protocol - Console Maître</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url('../assets/im5.jpeg');">
+    <main class="game-container">
+        <header class="game-header">
+            <h1 class="game-title">09. Console Maître</h1>
+            <div class="hud-panel">
+                <span>Statut: Terminal Racine</span>
+                <span>Inventaire: <strong id="hud-inventory">Aucun</strong></span>
+            </div>
+        </header>
+        <section class="story-text">
+            <p>Vous êtes devant l'interface système centrale. L'I.A. tente de bloquer l'accès en générant un flux de données corrompues. L'utilisation d'outils adaptés est requise.</p>
+        </section>
+        <nav class="choices-container">
+            <a href="win.html" class="btn-choice">
+                <img src="../assets/im12.png" alt="Icone Override" class="btn-icon">
+                Exécuter la commande de surcharge du système
+            </a>
+            <a href="gameover.html" class="btn-choice btn-choice--danger">
+                Tenter une déconnexion manuelle brute sans protocole
+            </a>
+        </nav>
+    </main>
+    <script src="../js/game.js"></script>
+</body>
+</html>

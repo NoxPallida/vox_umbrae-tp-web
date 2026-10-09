@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Protocol - Couloir Nord</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url('../assets/im7.jpeg">
+    <main class="game-container">
+        <header class="game-header">
+            <h1 class="game-title">03. Couloir du Serveur</h1>
+            <div class="hud-panel">
+                <span>Statut: Danger potentiel</span>
+                <span>Inventaire: <strong id="hud-inventory">Aucun</strong></span>
+            </div>
+        </header>
+        <section class="story-text">
+            <p>Une tourelle automatique de défense balaye la zone de son laser rouge. La porte blindée de la salle des serveurs est scellée par un lecteur de cartes magnétiques.</p>
+        </section>
+        <nav class="choices-container">
+            <a href="scene05.html" class="btn-choice">
+                <img src="../assets/im8.png" alt="Icone Porte" class="btn-icon">
+                Utiliser le Pass Niveau 1 sur le lecteur
+            </a>
+            <a href="scene06.html" class="btn-choice btn-choice--danger">
+                Tenter d'esquiver le laser et forcer la porte
+            </a>
+            <a href="scene01.html" class="btn-choice">
+                Replier vers le Hall de Contrôle
+            </a>
+        </nav>
+    </main>
+    <script src="../js/game.js"></script>
+</body>
+</html>

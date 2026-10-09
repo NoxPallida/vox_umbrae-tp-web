@@ -1,0 +1,20 @@
+                   [Index]
+                      │
+                  [Scene 01] (Hall)
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+   [Scene 02]    [Scene 03]    [Scene 04]
+   (Terminal)    (Couloir)    (Sous-station)
+    ┌───┴───┐     ┌───┼───┐     ┌───┴───┐
+    ▼       ▼     ▼   ▼   ▼     ▼       ▼
+ [Sc.03] [Sc.04] [Sc.05][Sc.06][Sc.07] [Sc.08]
+                 (Serv)  (Trap) (Maint) (Ventil)
+                    │      │      │       │
+                    └───┬──┘      └───┬───┘
+                        ▼             ▼
+                    [Scene 09]    [Scene 10]
+                     (Console)     (Noyau)
+                        │             │
+                   ┌────┴────┐   ┌────┴────┐
+                   ▼         ▼   ▼         ▼
+                [WIN]    [GAMEOVER]      [WIN]

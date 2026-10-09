@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Protocol - Terminal</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url('../assets/im5.jpeg');">
+    <main class="game-container">
+        <header class="game-header">
+            <h1 class="game-title">02. Terminal Sécurisé</h1>
+            <div class="hud-panel">
+                <span>Statut: Piratage</span>
+                <span>Inventaire: <strong id="hud-inventory">Aucun</strong></span>
+            </div>
+        </header>
+        <section class="story-text">
+            <p>Le terminal affiche un passe-partout numérique crypté. En insérant un composant physique, vous pourriez injecter un virus de contournement. Un compartiment latéral s'ouvre brusquement, révélant un pass d'accès niveau 1.</p>
+        </section>
+        <nav class="choices-container">
+            <a href="scene03.html" class="btn-choice" onclick="addItem('Pass Niveau 1')">
+                <img src="../assets/im6.png" alt="Icone Pass" class="btn-icon">
+                Prendre le Pass Niveau 1 et rejoindre le couloir
+            </a>
+            <a href="scene04.html" class="btn-choice">
+                Ignorer le terminal et descendre les escaliers
+            </a>
+        </nav>
+    </main>
+    <script src="../js/game.js"></script>
+</body>
+</html>
